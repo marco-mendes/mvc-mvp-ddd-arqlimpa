@@ -18,7 +18,7 @@ export class ContaService {
       throw new Error("Conta não encontrada");
     }
 
-    conta.realizarDebito(valor);
+    conta.realizarDebito(valor); //Delegation! (Gof)
     return this.contaRepository.save(conta);
   }
 

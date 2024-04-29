@@ -1,0 +1,28 @@
+# dependências
+/node_modules
+
+#Arquivos locais Mac
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.log
+
+# diretório de build
+/dist
+
+# diretórios de ambiente
+/.env
+
+# chaves do editor
+/.idea
+*.sublime
+".gitignore" 39L, 356B
+

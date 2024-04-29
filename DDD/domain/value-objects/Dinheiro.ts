@@ -1,5 +1,6 @@
 // src/domain/value-objects/Dinheiro.ts
 
+
 export class Dinheiro {
     private valor: number;
     private moeda: string;
